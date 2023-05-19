@@ -25,6 +25,8 @@ Don't put any punctuation in the sentences when using r.exe
 Unknown words will not be spoken by using the SND_NODEFAULT trick to skip anything,
 not found. 
 
+Conversely you can add more vocabulary words just by copying them into the .\zWAV folder.
+
 r.exe is NOT case sensitive because Windows operating system is not case sensitive, and
 WINE also mimic this case insensitive behavior for the program.
 
