@@ -1,5 +1,5 @@
 # ReciterWords
-Ridiculously tiny voice synthesizer program using massively huge collection of public domain sounds.
+Ridiculously tiny voice synthesizer program using a massively huge collection of public domain sounds.
 
 While browsing around for public domain material to be used in my programs I discovered several
 websites like wyabdcrealpeopletts files on the ReciteWord project: 
