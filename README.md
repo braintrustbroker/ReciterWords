@@ -13,28 +13,6 @@ It uses tricks from the standard C argv[] and the Windows PlaySound commands.
 ReciterWords can be built as "r.exe" using ANY C/C++ compiler and run on Windows or WINE.
 Remember to extract the "zWAV.7z" into .\zWAV directory.
 
-Here is the ridiculously simple code:
-
-#include <windows.h>
-#include <mmsystem.h>
-#include <stdio.h>
-#include <string.h>
-
-int main(int argc, char *argv[])
-  {
-  char b[MAX_PATH]="\0";
-  int x;
-  for(x=1;x<argc;x++)
-    {
-    printf(argv[x]); printf(" "); //Comment out if you don't want to display words
-    strcpy(b,".\\zWAV\\");
-    strcat(b,argv[x]);
-    strcat(b,".wav");
-    PlaySound(b,NULL,SND_FILENAME|SND_NODEFAULT);
-    }
-  return 0;
-  }
-  
 Despite the tiny size of the program, and no real processing done on the input, it still
 works and sounds great! Although it will skip around a bit in character since the 
 voices are from multiple people. 
@@ -61,3 +39,4 @@ Cheerio and Toodle Pip.
 
 And have a Suntastic Day!!
 ;-)
+
