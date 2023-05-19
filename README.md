@@ -50,7 +50,7 @@ not found.
 r.exe is NOT case sensitive because Windows operating system is not case sensitive, and
 WINE also mimic this case insensitive behavior for the program.
 
-The "r.bat" can be used to build "r.exe" with "r.c" using TCC Compiler if you wish.
+The "build.bat" can be used to build "r.exe" with "r.c" using TCC Compiler if you wish.
 You do have to edit the line "..\..\TCC\Tinycc\Win32\tcc.exe" to point to where your
 tcc.exe compiler.
 
